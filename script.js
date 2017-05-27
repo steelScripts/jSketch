@@ -8,15 +8,14 @@ $(document).ready(function(){
 		}
 	}
 	//CSS Rules
-	$("#button").css({
+	$("button").css({
 		"clear":"right",
-		"width": "3em",
-		"height":"1em",
 		"border": "2px solid white",
-		"border-radius":"3px",
-		"background-color":"teal"
+		"border-radius":"5px",
+		"background-color":"teal",
+		"color":"white",
+		"font":"1em helvetica"
 	})
-	$("#button").html("Clear");
 		
 	$("#container").css({
 		"width":"100%"
@@ -38,8 +37,8 @@ $(document).ready(function(){
 		  "border-color": "rgb("+r+","+g+","+b+")"
 		});
 	});
-	$("#button").click(function(){
-		$(".grid".css("background-color", "none");
+	$("button").click(function(){
+		$(".grid").css("background-color", "white");
 	});
 	
 	
