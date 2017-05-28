@@ -1,5 +1,9 @@
 $(document).ready(function(){
-	
+	$("body").css({
+		"background-color":"DarkSlateGray",
+		"color":"white",
+		"font":"1em helvetica"
+	});
 	//Generate Grid with initial white background-color
 	for(i = 0; i < 16; i++){
 		for(j = 0; j < 16; j++) {
@@ -21,6 +25,7 @@ $(document).ready(function(){
 		"width":"100%"
 	});
 	$(".grid").css({
+		"background-color":"rgb(255,255,255)",
 		"float":"left",
 		"border":"1px solid black",
 		"margin-bottom":"-1em",
